@@ -84,7 +84,7 @@ namespace job_portal.Admin
                     {
                         if (Utils.IsVaildToExecute(fuCompanyLogo.FileName))
                         {
-                            concatQuery = "CompanyImage = @CompanyImage";
+                            concatQuery = "CompanyImage = @CompanyImage,";
                         }
                         else
                         {
@@ -95,7 +95,7 @@ namespace job_portal.Admin
                     {
                         concatQuery = string.Empty;
                     }
-                    query = "Update Jobs set Title=@Title,NoOfPost=@NoOfPost,Description=@Description,Qualification=@Qualification,Experience=@Experience,Specialization=@Specialization,LastDateToApply=@LastDateToApply,Salary=@Salary,JobType=@JobType,CompanyName=@CompanyName," + concatQuery + ",Website=@Website,Email=@Email,Address=@Address,Country=@Country,State=@State where JobId=@id)";
+                    query = "Update Jobs set Title=@Title,NoOfPost=@NoOfPost,Description=@Description,Qualification=@Qualification,Experience=@Experience,Specialization=@Specialization,LastDateToApply=@LastDateToApply,Salary=@Salary,JobType=@JobType,CompanyName=@CompanyName," + concatQuery + "Website=@Website,Email=@Email,Address=@Address,Country=@Country,State=@State where JobId=@id";
                     type = "Updated";
                     cmd = new SqlCommand(query, con);
                     cmd.Parameters.AddWithValue("@Title", txtJobTitle.Text.Trim());

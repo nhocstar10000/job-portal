@@ -102,21 +102,21 @@
                      <div class="media contact-info">
                          <span class="contact-info__icon"><i class="ti-home"></i></span>
                          <div class="media-body">
-                             <h3>Buttonwood, California.</h3>
-                             <p>Rosemead, CA 91770</p>
+                             <h3>Viet Nam, HCM</h3>
+                             <p>354/34 Phan Văn Trị, Phường 11, Quận Bình Thạnh</p>
                          </div>
                      </div>
                      <div class="media contact-info">
                          <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                          <div class="media-body">
-                             <h3>+1 253 565 2365</h3>
+                             <h3>+84 5225 295 76</h3>
                              <p>Mon to Fri 9am to 6pm</p>
                          </div>
                      </div>
                      <div class="media contact-info">
                          <span class="contact-info__icon"><i class="ti-email"></i></span>
                          <div class="media-body">
-                             <h3>support@colorlib.com</h3>
+                             <h3>duyhp219@uef.edu.vn</h3>
                              <p>Send us your query anytime!</p>
                          </div>
                      </div>
